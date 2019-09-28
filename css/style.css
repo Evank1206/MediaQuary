@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+}
+header{
+    background-color:green;
+    height: 10vh;
+
+}
+h1{
+    font-family: 'Notable', sans-serif;
+    float: left;
+    color:white;
+    font-size: 40px;
+    position: relative;
+ 
+    padding-left: 60px;
+    margin-top: 10px;
+
+}
+
+ul{
+    float:right;
+    display: table;
+    height: 10vh;
+}
+
+li{
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 39px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding: 0px;
+    font-family: 'Notable', sans-serif;
+}
+a:hover{
+    color:orange;
+    font-size: 30px;
+    transition: all 0.9s ease;
+    /* font-family: 'Anton', sans-serif; */
+}
+                /* @mediaQuary is starting here */
+                           /* Nav Bar */
+@media screen and (max-width: 799px){
+    header{
+        background-color:green;
+        min-height: 24vh;
+        width: 103%;
+        display: table;
+
+    }
+    h1{
+        font-size: 50px;
+        top: 0px;
+
+        background-color:Orange;
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 0;
+    }
+    ul{
+        text-align: center;
+        width: 100%;
+        line-height: 2;
+    }
+    li{
+        display:block;
+        width: 100%;
+    }
+    a{
+        color:orange;
+        font-size: 25px;
+        font-family: 'Anton', sans-serif;
+    }
+    a:hover{
+        color: blue;
+    }
+    
+
+}
+
+
+                /* body starts here */
+
+main{
+    min-height: 80vh;
+    background-image: url(../img/cat-theme.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.contents{
+    border: solid grey;
+    /* background-color:lightgrey; */
+    width: 40%;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-30px, -27px);
+    padding: 10px;
+    box-sizing: border-box;    
+}
+.image{
+    width: 200px;
+    height: 200px;
+    background: url(../img/cat.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+    shape-outside: circle();
+
+}
+.contents h3{
+    text-align: center;
+}
+.contents p{
+    font-family:'Cute Font', cursive;
+    font-size: 19px;
+    /* color:black; */
+}
+
+
+                /* main body @mediaQuary is starting from here */
+
+@media screen and (max-width: 1600px){
+
+.contents{
+    /* background-color:lightgreen; */
+    width: 50%;
+
+    }
+}
+
+@media screen and (max-width: 1300px){
+
+    .contents{
+        width: 60%;
+        /* position: absolute; */
+        left: 25%;
+
+        }
+    }
+
+@media screen and (max-width: 1090px){
+
+.contents{
+    width: 75%;
+    /* position: absolute; */
+    left: 16%;
+
+    }
+}
+
+@media screen and (max-width: 950px){
+
+.contents{
+    /* background-color:lightgreen; */
+    width: 80%;
+    /* position: absolute; */
+    left: 13%;
+
+    }
+}
+
+@media screen and (max-width: 810px){
+
+.contents{
+    background-color:lightgrey;
+    width: 90%;
+    /* position: absolute; */
+    left: 8%;
+
+    }
+}
+
+@media screen and (max-width: 799px){
+
+.contents{
+    background-color:lightgrey;
+    width: 100%;
+    /* position: absolute; */
+    top: 28%;
+    left: 4%;
+    margin: 0px;
+
+    }
+}
+
+@media screen and (max-width: 709px){
+
+.contents{
+    background-color:lightgreen;
+    width: 100%;
+    /* position: absolute; */
+    top: 28%;
+    left: 4%;
+/* margin: 0px; */
+    }
+}
+
+@media screen and (max-width: 630px){
+
+.contents{
+    background-color:lightgreen;
+
+    width: 100%;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    margin: 0px;
+
+    }
+    main{
+        min-height: 829px;
+    }
+}
+
+@media screen and (max-width: 560px){
+
+.contents{
+    background-color:lightgreen;
+    width: 100%;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+/* margin: 0px; */
+    }
+}
+
+
+    /* footer{
+        height: 10vh;
+        background-color: green;
+        text-align: center;
+        width: 100%;
+    }
+    span{
+        color: white;
+        font-size: 9px;
+        position: relative;
+        top: 36px;
+    } */
+
+
+
+
+
+
+
+
+            /* footer section */
+
+footer{
+    height: 10vh;
+    background-color: green;
+    text-align: center;
+}
+span{
+    color: white;
+    font-size: 9px;
+    position: relative;
+    top: 36px;
+}
+
+

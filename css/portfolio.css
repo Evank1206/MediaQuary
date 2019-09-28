@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+}
+header{
+    background-color:green;
+    height: 10vh;
+
+}
+h1{
+    font-family: 'Notable', sans-serif;
+    float: left;
+    color:white;
+    font-size: 40px;
+    position: relative;
+ 
+    padding-left: 60px;
+    margin-top: 10px;
+
+}
+
+ul{
+    float:right;
+    display: table;
+    height: 10vh;
+}
+
+li{
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 39px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding: 0px;
+    font-family: 'Notable', sans-serif;
+}
+a:hover{
+    color: blue;
+    font-size: 31px;
+    transition: all 0.9s ease;
+}
+main{
+    min-height: 80vh;
+    background-image: url(../img/cat-theme.jpg);
+    background-position: center;
+    background-size: cover;
+    /* width: 100%; */
+
+}
+footer{
+    height: 10vh;
+    background-color: green;
+    text-align: center;
+}
+span{
+    color: white;
+    font-size: 9px;
+    position: relative;
+    top: 36px;
+}
+@media screen and (max-width: 799px){
+    header{
+        background-color:rgb(29, 218, 231);
+        min-height: 24vh;
+        width: 103%;
+        display: table;
+
+    }
+    h1{
+        font-size: 50px;
+        top: 0px;
+
+        background-color:Orange;
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 0;
+    }
+    ul{
+        text-align: center;
+        width: 100%;
+        line-height: 2;
+    }
+    li{
+        display:block;
+        width: 100%;
+    }
+    a{
+        color:orange;
+        font-size: 25px;
+        font-family: 'Anton', sans-serif;
+    }
+
+}
+
+/* main is starting from here */
+
+.contents{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+    min-height: 40%;
+    margin-right: 5%;
+    /* border: solid green; */
+    box-sizing: border-box;
+    /* background: url(../img/theme.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+
+}
+.box1, .box2, .box3{
+    float: left;
+    /* display: inline-block; */
+    height:390px; 
+    width: 31%;
+    border: solid brown;
+    margin:1%;
+    box-sizing: border-box;
+    border-radius: 20%;
+    
+}
+.box1{
+    background:url(../img/girlfriend.jpg) ;
+    background-position: center;
+    background-size: cover;
+    
+}
+.box2{
+    background:url(../img/me.jpg) ;
+    background-position: center;
+    background-size: cover;
+    
+}
+.box3{
+    background:url(../img/best.jpg) ;
+    background-position: center;
+    background-size: cover;
+    
+}
+.contents h2{
+    text-align: center;
+    padding-top: 32px;
+    color: white;
+}
+.contents h2:hover{
+    color: brown;
+}
+
+/* @mediaQuary is starting from here */
+
+@media screen and (max-width: 1300px){
+
+    .contents {
+        position: absolute;
+        top: 25%;
+        left: 6%;
+        width: 87%;
+        min-height: 40%;
+        margin-right: 5%;
+        /* border: solid green; */
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (max-width: 799px){
+.box1, .box2, .box3 {
+    /* float: left; */
+    height: 259px;
+    width: 96%;
+    border: solid brown;
+    margin: 1%;
+    box-sizing: border-box;
+    border-radius: 20%;
+
+    }
+    main{
+        min-height: 829px;
+        background: grey;
+    }
+    footer{
+        height: 10vh;
+        background-color: rgb(29, 218, 231);
+        text-align: center;
+    }
+}
